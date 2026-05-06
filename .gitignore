@@ -1,0 +1,37 @@
+﻿# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+*.key
+*.pem
+
+# Runtime data
+data/
+output/
+*.sqlite
+*.sqlite3
+*.db
+*.log
+
+# Input papers / private documents
+input/
+!input/.gitkeep
+
+# Build artifacts
+build/
+dist/
+*.spec
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
